@@ -1,9 +1,8 @@
 const people = require("../../data.json");
-
+const Discord = require("discord.js");
 module.exports = {
   name: "whois",
   description: "whois",
-  guildOnly: true,
   execute(message, args) {
     const findPerson = (id) => {
       notFound = true;
@@ -11,7 +10,15 @@ module.exports = {
         person.discord.forEach((discordId) => {
           if (id == discordId) {
             notFound = false;
-            return message.channel.send(`${person.name}\n${person.url}`);
+            const embed = new Discord.MessageEmbed()
+              .attachFiles(["src/images/logo.png"])
+              .setColor("RANDOM")
+              .setTitle(person.name)
+              .setURL(person.url)
+              .setTimestamp()
+              .setFooter("RoyahBot", "attachment://logo.png");
+
+            return message.channel.send(embed);
           }
         });
       });
