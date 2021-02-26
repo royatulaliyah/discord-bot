@@ -10,6 +10,7 @@ module.exports = {
   name: "bookinfo",
   description: "get a book's information from goodreads api",
   aliases: ["book"],
+  cooldown: 10,
   execute(message, args) {
     const sendMessage = (bookData) => {
       const getAuthor = () => {
@@ -44,23 +45,29 @@ module.exports = {
       };
 
       const embedMessage = new Discord.MessageEmbed()
+        .attachFiles(["src/images/goodreads.png"])
         .setColor("RANDOM")
         .setTitle(bookData.title)
         .setURL(bookData.url)
         .setThumbnail(getImageUrl())
         .addField("Author", getAuthor())
         .addField("Description", getDescription())
-        .setFooter("RoyahBot (Beta) • Data Provided by Goodreads")
+        .setFooter(
+          "Data provided by Goodreads • RoyahBot (Beta)",
+          "attachment://goodreads.png"
+        )
         .setTimestamp();
       return message.channel.send(embedMessage);
     };
 
     const showBook = (bookId) => {
-      message.channel.send(`Found! Getting book data...`);
-      gr.showBook(bookId).then((data) => {
-        bookData = data.book;
-        sendMessage(bookData);
-      });
+      setTimeout(() => {
+        message.channel.send(`Found! Getting book data...`);
+        gr.showBook(bookId).then((data) => {
+          bookData = data.book;
+          sendMessage(bookData);
+        });
+      }, 1000);
     };
 
     const query = args.join(" ");
