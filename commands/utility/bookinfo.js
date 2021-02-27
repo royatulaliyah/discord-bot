@@ -16,7 +16,12 @@ module.exports = {
       const getAuthor = () => {
         authors = bookData.authors.author;
         if (Array.isArray(authors)) {
-          return authors[0].name;
+          toReturn = [];
+          authors.forEach((author) => {
+            toReturn.push(author.name);
+          });
+
+          return toReturn.join(", ");
         } else {
           return authors.name;
         }
@@ -30,28 +35,62 @@ module.exports = {
 
       const getDescription = () => {
         bookDescription = bookData.description
-          .split("<br />")
-          .join("\n")
-          .split("<i>")
-          .join("*")
-          .split("</i>")
-          .join("*");
+          .replace(/<b>/g, " **")
+          .replace(/<\/b>/g, "** ")
+          .replace(/<i>/g, " *")
+          .replace(/<\/i>/g, "* ")
+          .replace(/<br \/>/g, "\n")
+          .replace(/<p>/g, "\n")
+          .replace(/<\/p>/g, "\n");
         if (bookDescription.length > 1000) {
           bookDescription = bookDescription.slice(0, 1000);
           bookDescription += "...";
         }
+        bookDescription += "\n\u200B";
         if (bookDescription) return bookDescription;
         return "no description";
+      };
+
+      const getISBN = () => {
+        if (bookData.isbn13) return bookData.isbn13;
+        return "no data";
+      };
+
+      const getAvgRating = () => {
+        if (bookData.average_rating) {
+          return bookData.average_rating + "/5";
+        }
+        return "no data";
+      };
+
+      const getTags = () => {
+        tags = [];
+        ignore = [
+          "to-read",
+          "currently-reading",
+          "audiobooks",
+          "audiobook",
+          "my-library",
+        ];
+        bookData.popular_shelves.shelf.forEach((shelf) => {
+          if (!ignore.includes(shelf.name)) tags.push(shelf.name);
+        });
+
+        if (tags.slice(0, 6).join(", ")) return tags.slice(0, 6).join(", ");
+        return "no data";
       };
 
       const embedMessage = new Discord.MessageEmbed()
         .attachFiles(["src/images/goodreads.png"])
         .setColor("RANDOM")
-        .setTitle(bookData.title)
-        .setURL(bookData.url)
+        .setTitle(bookData.title + "\n\u200B")
         .setThumbnail(getImageUrl())
         .addField("Author", getAuthor())
+        .addField("ISBN", getISBN(), true)
+        .addField("Avg. Rating", getAvgRating(), true)
+        .addField("Popular Tags", getTags())
         .addField("Description", getDescription())
+        .addField("More about this book", bookData.url + "\n\u200B")
         .setFooter(
           "Data provided by Goodreads • RoyahBot (Beta)",
           "attachment://goodreads.png"
@@ -74,12 +113,15 @@ module.exports = {
     message.channel.send(`Searching for *${query}*...`);
     gr.searchBooks({ q: query, field: "all" }).then((data) => {
       results = data.search.results.work;
-      if (Array.isArray(results)) {
-        bookId = results[0].best_book.id._;
-      } else {
-        bookId = results.best_book.id._;
+      try {
+        if (Array.isArray(results)) {
+          showBook(results[0].best_book.id._);
+        } else {
+          showBook(results.best_book.id._);
+        }
+      } catch (TypeError) {
+        message.channel.send(`Book not found`);
       }
-      showBook(bookId);
     });
   },
 };
