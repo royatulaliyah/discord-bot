@@ -4,13 +4,28 @@ on:
     branches:
       - main
 jobs:
-  build:
+  Deployment:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    env:
+      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.0.0
+      - name: Set up Ruby 2.7
+        uses: actions/setup-ruby@v1
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name:  ${{secrets.HEROKU_APP_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
-          usedocker: true
+          ruby-version: 2.7
+      - name: Install dpl
+        run: gem install dpl
+      - name: Install Heroku CLI
+        run: wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+      - name: Deploy to Heroku
+        run: dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY
+      - uses: chrnorm/deployment-action@releases/v1
+        name: Create GitHub deployment
+        with:
+          initial_status: success
+          token: ${{ github.token }}
+          target_url: https://${{ secrets.HEROKU_APP_NAME }}.herokuapp.com
+          environment: production
