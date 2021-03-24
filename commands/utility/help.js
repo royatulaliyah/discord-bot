@@ -6,7 +6,7 @@ module.exports = {
     const embed = new Discord.MessageEmbed()
       .attachFiles(["src/images/logo.png"])
       .setColor("RANDOM")
-      .setTitle("Klik untunk bantuan")
+      .setTitle("Klik untuk bantuan")
       .setURL(
         "https://itdev.royah.me/Discord-Bot-ee2e07e68e4646898bf7e4bccd2f25b8"
       )
