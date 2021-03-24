@@ -1,572 +1,572 @@
 [
- {
-   "absen": 16001,
-   "name": "Afdal Huda",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/afdal-huda"
- },
- {
-   "absen": 16002,
-   "name": "Ahmad Fauzan",
-   "discord": ["689696974550990879"],
-   "url": "https://royatulaliyah.netlify.app/ahmad-fauzan"
- },
- {
-   "absen": 16003,
-   "name": "Ahmad Fauzy Ahady",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/ahmad-fauzy-ahady"
- },
- {
-   "absen": 16004,
-   "name": "Ahmad Raihan Nasution",
-   "discord": ["691590844326739979"],
-   "url": "https://royatulaliyah.netlify.app/ahmad-raihan-nasution"
- },
- {
-   "absen": 16005,
-   "name": "Aisya Nurul Izzah",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/aisya-nurul-izzah"
- },
- {
-   "absen": 16006,
-   "name": "Aisyah Purnama Sari",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/aisyah-purnama-sari"
- },
- {
-   "absen": 16007,
-   "name": "Alif Ghifari Putra",
-   "discord": ["689699672549228546"],
-   "url": "https://royatulaliyah.netlify.app/alif-ghifari-putra"
- },
- {
-   "absen": 16008,
-   "name": "Allif Maulana Sakti",
-   "discord": ["723099014941245521"],
-   "url": "https://royatulaliyah.netlify.app/allif-maulana-sakti"
- },
- {
-   "absen": 16009,
-   "name": "Amelia Fransiska",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/amelia-fransiska"
- },
- {
-   "absen": 16010,
-   "name": "Annisa Latifah",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/annisa-latifah"
- },
- {
-   "absen": 16011,
-   "name": "Annisa Nada Zahra",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/annisa-nada-zahra"
- },
- {
-   "absen": 16012,
-   "name": "Annisa Sucita Fitri",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/annisa-sucita-fitri"
- },
- {
-   "absen": 16013,
-   "name": "Arrafi Insanul Taqlim",
-   "discord": ["691496842654908427"],
-   "url": "https://royatulaliyah.netlify.app/arrafi-insanul-taqlim"
- },
- {
-   "absen": 16014,
-   "name": "Athiya Rahmah Elsafrediniya",
-   "discord": ["724108818308530276"],
-   "url": "https://royatulaliyah.netlify.app/athiya-rahmah-elsafrediniya"
- },
- {
-   "absen": 16015,
-   "name": "Aulia Amjad Lutfi",
-   "discord": ["764869578982424576"],
-   "url": "https://royatulaliyah.netlify.app/aulia-amjad-lutfi"
- },
- {
-   "absen": 16016,
-   "name": "Auri Prasetya",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/auri-prasetya"
- },
- {
-   "absen": 16017,
-   "name": "Ayunda Luthfia Hazmar",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/ayunda-luthfia-hazmar"
- },
- {
-   "absen": 16018,
-   "name": "Azanisilia",
-   "discord": ["689015455373066260"],
-   "url": "https://royatulaliyah.netlify.app/azanisilia"
- },
- {
-   "absen": 16019,
-   "name": "Azza Zulkifli",
-   "discord": ["758961425539661874"],
-   "url": "https://royatulaliyah.netlify.app/azza-zulkifli"
- },
- {
-   "absen": 16020,
-   "name": "Bima Halim Jatmika",
-   "discord": ["691497616764174357"],
-   "url": "https://royatulaliyah.netlify.app/bima-halim-jatmika"
- },
- {
-   "absen": 16099,
-   "name": "Cendra Putra",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/cendra-putra"
- },
- {
-   "absen": 16021,
-   "name": "Daffa Alif Andafi",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/daffa-alif-andafi"
- },
- {
-   "absen": 16022,
-   "name": "Delfia Safta Mayora",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/delfia-safta-mayora"
- },
- {
-   "absen": 16024,
-   "name": "Dwiky Ihsan Wal Afif",
-   "discord": ["754705496119836791", "796012554899816488"],
-   "url": "https://royatulaliyah.netlify.app/dwiky-ihsan-wal-afif"
- },
- {
-   "absen": 16025,
-   "name": "Fakhrul Ikram Sulanta",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/fakhrul-ikram-sulanta"
- },
- {
-   "absen": 16026,
-   "name": "Fakhrul Ramadhan",
-   "discord": ["735537287353335820"],
-   "url": "https://royatulaliyah.netlify.app/fakhrul-ramadhan"
- },
- {
-   "absen": 16027,
-   "name": "Farhan Al Ghifari",
-   "discord": ["812722679890313276"],
-   "url": "https://royatulaliyah.netlify.app/farhan-al-ghifari"
- },
- {
-   "absen": 16028,
-   "name": "Farras Putri Friandeka",
-   "discord": ["605608651868078081"],
-   "url": "https://royatulaliyah.netlify.app/farras-putri-friandeka"
- },
- {
-   "absen": 16029,
-   "name": "Fauzan Helmi Ramadhan",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/fauzan-helmi-ramadhan"
- },
- {
-   "absen": 16030,
-   "name": "Fristianda Afra",
-   "discord": ["691497048670863420"],
-   "url": "https://royatulaliyah.netlify.app/fristianda-afra"
- },
- {
-   "absen": 16031,
-   "name": "Hanifah Muthmainah",
-   "discord": ["761604112839082064"],
-   "url": "https://royatulaliyah.netlify.app/hanifah-muthmainah"
- },
- {
-   "absen": 16032,
-   "name": "Hartardi Ichsan Widyatama",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/hartardi-ichsan-widyatama"
- },
- {
-   "absen": 16033,
-   "name": "Hidayati Arifatullaily",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/hidayati-arifatullaily"
- },
- {
-   "absen": 16034,
-   "name": "Hidayatul Fadhilah Edyenti",
-   "discord": ["721615613667049475"],
-   "url": "https://royatulaliyah.netlify.app/hidayatul-fadhilah-edyenti"
- },
- {
-   "absen": 16035,
-   "name": "Hilary Priscilla",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/hilary-priscilla"
- },
- {
-   "absen": 16036,
-   "name": "Ichsanul Putra Jefi",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/ichsanul-putra-jefi"
- },
- {
-   "absen": 16037,
-   "name": "Ihsanul Muslim",
-   "discord": ["770208848040427521"],
-   "url": "https://royatulaliyah.netlify.app/ihsanul-muslim"
- },
- {
-   "absen": 16038,
-   "name": "Jerry Ferdiansyah",
-   "discord": ["613231123849543681"],
-   "url": "https://royatulaliyah.netlify.app/jerry-ferdiansyah"
- },
- {
-   "absen": 16039,
-   "name": "Karina Khairan",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/karina-khairan"
- },
- {
-   "absen": 16040,
-   "name": "Kevin Rinata",
-   "discord": ["769035299732848661"],
-   "url": "https://royatulaliyah.netlify.app/kevin-rinata"
- },
- {
-   "absen": 16041,
-   "name": "Khairini Ramadhani",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/khairini-ramadhani"
- },
- {
-   "absen": 16042,
-   "name": "Laila Majenum",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/laila-majenum"
- },
- {
-   "absen": 16043,
-   "name": "Larasaki Kamiko",
-   "discord": ["718847168328237119"],
-   "url": "https://royatulaliyah.netlify.app/larasaki-kamiko"
- },
- {
-   "absen": 16044,
-   "name": "M. Alvin Syukriant",
-   "discord": ["693689731921346651"],
-   "url": "https://royatulaliyah.netlify.app/m-alvin-syukriant"
- },
- {
-   "absen": 16045,
-   "name": "M. Arif Nugraha",
-   "discord": ["701410294278389770"],
-   "url": "https://royatulaliyah.netlify.app/m-arif-nugraha"
- },
- {
-   "absen": 16046,
-   "name": "M. Taufiqurahman",
-   "discord": ["704160753023844362"],
-   "url": "https://royatulaliyah.netlify.app/m-taufiqurahman"
- },
- {
-   "absen": 16047,
-   "name": "Merliya Fitri",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/merliya-fitri"
- },
- {
-   "absen": 16048,
-   "name": "Mhd. Mishbah As-Shiddiq",
-   "discord": ["689273945425313793"],
-   "url": "https://royatulaliyah.netlify.app/mhd-mishbah-as-shiddiq"
- },
- {
-   "absen": 16050,
-   "name": "Muhammad Alif Lazuardi",
-   "discord": ["765052488646000651"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-alif-lazuardi"
- },
- {
-   "absen": 16051,
-   "name": "Muhammad Arstha Thoha",
-   "discord": ["803645047945035807"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-arstha-thoha"
- },
- {
-   "absen": 16049,
-   "name": "Muhammad Farhan",
-   "discord": ["689859657614753839"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-farhan"
- },
- {
-   "absen": 16052,
-   "name": "Muhammad Farhan Khadaffi",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/muhammad-farhan-khadaffi"
- },
- {
-   "absen": 16054,
-   "name": "Muhammad Hadana Alkautsar",
-   "discord": ["733977123467034664"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-hadana-alkautsar"
- },
- {
-   "absen": 16053,
-   "name": "Muhammad Hafidz",
-   "discord": ["564316263455916033"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-hafidz"
- },
- {
-   "absen": 16055,
-   "name": "Muhammad Hanief",
-   "discord": ["743808926667112470"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-hanief"
- },
- {
-   "absen": 16056,
-   "name": "Muhammad Hasbi Asy Syukri",
-   "discord": ["754717441703018626", "727810070410428457"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-hasbi-asy-syukri"
- },
- {
-   "absen": 16057,
-   "name": "Muhammad Irfan Alhasan",
-   "discord": ["593662418727600169"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-irfan-alhasan"
- },
- {
-   "absen": 16058,
-   "name": "Muhammad Luthfi",
-   "discord": ["695918802067652611"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-luthfi"
- },
- {
-   "absen": 16059,
-   "name": "Muhammad Rawanda Fardiansyah",
-   "discord": ["707512925589340220"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-rawanda-fardiansyah"
- },
- {
-   "absen": 16060,
-   "name": "Muhammad Rival",
-   "discord": ["691616333938556958"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-rival"
- },
- {
-   "absen": 16061,
-   "name": "Muhammad Urwatil Wutsqo",
-   "discord": ["487959385939771392"],
-   "url": "https://royatulaliyah.netlify.app/muhammad-urwatil-wutsqo"
- },
- {
-   "absen": 16062,
-   "name": "Muslihuddin Sa'di Subhan",
-   "discord": ["707521643546673225"],
-   "url": "https://royatulaliyah.netlify.app/muslihuddin-sadi-subhan"
- },
- {
-   "absen": 16065,
-   "name": "Nabila Hannania",
-   "discord": ["742616281387106354"],
-   "url": "https://royatulaliyah.netlify.app/nabila-hannania"
- },
- {
-   "absen": 16066,
-   "name": "Nadia Suryani",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/nadia-suryani"
- },
- {
-   "absen": 16067,
-   "name": "Nadifa Nur Aulia",
-   "discord": ["759202938169851934"],
-   "url": "https://royatulaliyah.netlify.app/nadifa-nur-aulia"
- },
- {
-   "absen": 16068,
-   "name": "Nafiqul Fajri",
-   "discord": ["654007465196781608"],
-   "url": "https://royatulaliyah.netlify.app/nafiqul-fajri"
- },
- {
-   "absen": 16069,
-   "name": "Ni'mah Syamila",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/nimah-syamila"
- },
- {
-   "absen": 16070,
-   "name": "Nurul Rahmah",
-   "discord": ["732860476450537492"],
-   "url": "https://royatulaliyah.netlify.app/nurul-rahmah"
- },
- {
-   "absen": 16071,
-   "name": "Qory Zafira",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/qory-zafira"
- },
- {
-   "absen": 16072,
-   "name": "Rafif Al Ghani",
-   "discord": ["732349101311787028"],
-   "url": "https://royatulaliyah.netlify.app/rafif-al-ghani"
- },
- {
-   "absen": 16073,
-   "name": "Rahmadini Aulia",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/rahmadini-aulia"
- },
- {
-   "absen": 16074,
-   "name": "Rahmat Mukhalin",
-   "discord": ["580498083058548787"],
-   "url": "https://royatulaliyah.netlify.app/rahmat-mukhalin"
- },
- {
-   "absen": 16075,
-   "name": "Rahmatillah Noveza Rahmi",
-   "discord": ["732863662267564122"],
-   "url": "https://royatulaliyah.netlify.app/rahmatillah-noveza-rahmi"
- },
- {
-   "absen": 16076,
-   "name": "Rahul Prima Putra",
-   "discord": ["689102760892825693"],
-   "url": "https://royatulaliyah.netlify.app/rahul-prima-putra"
- },
- {
-   "absen": 16077,
-   "name": "Ravenna Salva Zahira",
-   "discord": ["701064685356712009"],
-   "url": "https://royatulaliyah.netlify.app/ravenna-salva-zahira"
- },
- {
-   "absen": 16078,
-   "name": "Rayyan Azzahra Hidayat",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/rayyan-azzahra-hidayat"
- },
- {
-   "absen": 16079,
-   "name": "Regina Maharani",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/regina-maharani"
- },
- {
-   "absen": 16098,
-   "name": "Reza Ayu Astika",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/reza-ayu-astika"
- },
- {
-   "absen": 16081,
-   "name": "Rezza Fiqrathul Putra",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/rezza-fiqrathul-putra"
- },
- {
-   "absen": 16082,
-   "name": "Ridha Rahmah",
-   "discord": ["712345925246255265"],
-   "url": "https://royatulaliyah.netlify.app/ridha-rahmah"
- },
- {
-   "absen": 16083,
-   "name": "Rihhadatul 'Aisy",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/rihhadatul-aisy"
- },
- {
-   "absen": 16084,
-   "name": "Rizka Tri Afifah",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/rizka-tri-afifah"
- },
- {
-   "absen": 16085,
-   "name": "Ruhiyah Faradishi Widiaputri",
-   "discord": ["690237628406431827"],
-   "url": "https://royatulaliyah.netlify.app/ruhiyah-faradishi-widiaputri"
- },
- {
-   "absen": 16086,
-   "name": "Rurianda Nurhafizhah",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/rurianda-nurhafizhah"
- },
- {
-   "absen": 16087,
-   "name": "Salim Perdana",
-   "discord": ["686125570085617690"],
-   "url": "https://royatulaliyah.netlify.app/salim-perdana"
- },
- {
-   "absen": 16088,
-   "name": "Shidiq Tami Putra",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/shidiq-tami-putra"
- },
- {
-   "absen": 16089,
-   "name": "Siti Iedrania Azzariyat Akbar",
-   "discord": ["326980249315442698"],
-   "url": "https://royatulaliyah.netlify.app/siti-iedrania-azzariyat-akbar"
- },
- {
-   "absen": 16090,
-   "name": "Suci Nurul Azizi",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/suci-nurul-azizi"
- },
- {
-   "absen": 16091,
-   "name": "Syarah Oktaviana",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/syarah-oktaviana"
- },
- {
-   "absen": 16092,
-   "name": "Teungku Muhammad Siddiq",
-   "discord": ["691301166260420638"],
-   "url": "https://royatulaliyah.netlify.app/teungku-muhammad-siddiq"
- },
- {
-   "absen": 16093,
-   "name": "Ulva Harlina",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/ulva-harlina"
- },
- {
-   "absen": 16094,
-   "name": "Vhelsy Indra Chahyani",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/vhelsy-indra-chahyani"
- },
- {
-   "absen": 16095,
-   "name": "Wela Sapira",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/wela-sapira"
- },
- {
-   "absen": 16096,
-   "name": "Windi Dwi Nanda",
-   "discord": [],
-   "url": "https://royatulaliyah.netlify.app/windi-dwi-nanda"
- },
- {
-   "absen": 16097,
-   "name": "Yusuf Arrazaq Malqi",
-   "discord": ["801826026157899787"],
-   "url": "https://royatulaliyah.netlify.app/yusuf-arrazaq-malqi"
- }
+  {
+    "absen": 16001,
+    "name": "Afdal Huda",
+    "discord": [],
+    "url": "https://royah.me/afdal-huda"
+  },
+  {
+    "absen": 16002,
+    "name": "Ahmad Fauzan",
+    "discord": ["689696974550990879"],
+    "url": "https://royah.me/ahmad-fauzan"
+  },
+  {
+    "absen": 16003,
+    "name": "Ahmad Fauzy Ahady",
+    "discord": [],
+    "url": "https://royah.me/ahmad-fauzy-ahady"
+  },
+  {
+    "absen": 16004,
+    "name": "Ahmad Raihan Nasution",
+    "discord": ["691590844326739979"],
+    "url": "https://royah.me/ahmad-raihan-nasution"
+  },
+  {
+    "absen": 16005,
+    "name": "Aisya Nurul Izzah",
+    "discord": [],
+    "url": "https://royah.me/aisya-nurul-izzah"
+  },
+  {
+    "absen": 16006,
+    "name": "Aisyah Purnama Sari",
+    "discord": [],
+    "url": "https://royah.me/aisyah-purnama-sari"
+  },
+  {
+    "absen": 16007,
+    "name": "Alif Ghifari Putra",
+    "discord": ["689699672549228546"],
+    "url": "https://royah.me/alif-ghifari-putra"
+  },
+  {
+    "absen": 16008,
+    "name": "Allif Maulana Sakti",
+    "discord": ["723099014941245521"],
+    "url": "https://royah.me/allif-maulana-sakti"
+  },
+  {
+    "absen": 16009,
+    "name": "Amelia Fransiska",
+    "discord": [],
+    "url": "https://royah.me/amelia-fransiska"
+  },
+  {
+    "absen": 16010,
+    "name": "Annisa Latifah",
+    "discord": [],
+    "url": "https://royah.me/annisa-latifah"
+  },
+  {
+    "absen": 16011,
+    "name": "Annisa Nada Zahra",
+    "discord": [],
+    "url": "https://royah.me/annisa-nada-zahra"
+  },
+  {
+    "absen": 16012,
+    "name": "Annisa Sucita Fitri",
+    "discord": [],
+    "url": "https://royah.me/annisa-sucita-fitri"
+  },
+  {
+    "absen": 16013,
+    "name": "Arrafi Insanul Taqlim",
+    "discord": ["691496842654908427"],
+    "url": "https://royah.me/arrafi-insanul-taqlim"
+  },
+  {
+    "absen": 16014,
+    "name": "Athiya Rahmah Elsafrediniya",
+    "discord": ["724108818308530276"],
+    "url": "https://royah.me/athiya-rahmah-elsafrediniya"
+  },
+  {
+    "absen": 16015,
+    "name": "Aulia Amjad Lutfi",
+    "discord": ["764869578982424576"],
+    "url": "https://royah.me/aulia-amjad-lutfi"
+  },
+  {
+    "absen": 16016,
+    "name": "Auri Prasetya",
+    "discord": [],
+    "url": "https://royah.me/auri-prasetya"
+  },
+  {
+    "absen": 16017,
+    "name": "Ayunda Luthfia Hazmar",
+    "discord": [],
+    "url": "https://royah.me/ayunda-luthfia-hazmar"
+  },
+  {
+    "absen": 16018,
+    "name": "Azanisilia",
+    "discord": ["689015455373066260"],
+    "url": "https://royah.me/azanisilia"
+  },
+  {
+    "absen": 16019,
+    "name": "Azza Zulkifli",
+    "discord": ["758961425539661874"],
+    "url": "https://royah.me/azza-zulkifli"
+  },
+  {
+    "absen": 16020,
+    "name": "Bima Halim Jatmika",
+    "discord": ["691497616764174357"],
+    "url": "https://royah.me/bima-halim-jatmika"
+  },
+  {
+    "absen": 16099,
+    "name": "Cendra Putra",
+    "discord": [],
+    "url": "https://royah.me/cendra-putra"
+  },
+  {
+    "absen": 16021,
+    "name": "Daffa Alif Andafi",
+    "discord": [],
+    "url": "https://royah.me/daffa-alif-andafi"
+  },
+  {
+    "absen": 16022,
+    "name": "Delfia Safta Mayora",
+    "discord": [],
+    "url": "https://royah.me/delfia-safta-mayora"
+  },
+  {
+    "absen": 16024,
+    "name": "Dwiky Ihsan Wal Afif",
+    "discord": ["754705496119836791", "796012554899816488"],
+    "url": "https://royah.me/dwiky-ihsan-wal-afif"
+  },
+  {
+    "absen": 16025,
+    "name": "Fakhrul Ikram Sulanta",
+    "discord": [],
+    "url": "https://royah.me/fakhrul-ikram-sulanta"
+  },
+  {
+    "absen": 16026,
+    "name": "Fakhrul Ramadhan",
+    "discord": ["735537287353335820"],
+    "url": "https://royah.me/fakhrul-ramadhan"
+  },
+  {
+    "absen": 16027,
+    "name": "Farhan Al Ghifari",
+    "discord": ["812722679890313276"],
+    "url": "https://royah.me/farhan-al-ghifari"
+  },
+  {
+    "absen": 16028,
+    "name": "Farras Putri Friandeka",
+    "discord": ["605608651868078081"],
+    "url": "https://royah.me/farras-putri-friandeka"
+  },
+  {
+    "absen": 16029,
+    "name": "Fauzan Helmi Ramadhan",
+    "discord": [],
+    "url": "https://royah.me/fauzan-helmi-ramadhan"
+  },
+  {
+    "absen": 16030,
+    "name": "Fristianda Afra",
+    "discord": ["691497048670863420"],
+    "url": "https://royah.me/fristianda-afra"
+  },
+  {
+    "absen": 16031,
+    "name": "Hanifah Muthmainah",
+    "discord": ["761604112839082064"],
+    "url": "https://royah.me/hanifah-muthmainah"
+  },
+  {
+    "absen": 16032,
+    "name": "Hartardi Ichsan Widyatama",
+    "discord": [],
+    "url": "https://royah.me/hartardi-ichsan-widyatama"
+  },
+  {
+    "absen": 16033,
+    "name": "Hidayati Arifatullaily",
+    "discord": [],
+    "url": "https://royah.me/hidayati-arifatullaily"
+  },
+  {
+    "absen": 16034,
+    "name": "Hidayatul Fadhilah Edyenti",
+    "discord": ["721615613667049475"],
+    "url": "https://royah.me/hidayatul-fadhilah-edyenti"
+  },
+  {
+    "absen": 16035,
+    "name": "Hilary Priscilla",
+    "discord": [],
+    "url": "https://royah.me/hilary-priscilla"
+  },
+  {
+    "absen": 16036,
+    "name": "Ichsanul Putra Jefi",
+    "discord": [],
+    "url": "https://royah.me/ichsanul-putra-jefi"
+  },
+  {
+    "absen": 16037,
+    "name": "Ihsanul Muslim",
+    "discord": ["770208848040427521"],
+    "url": "https://royah.me/ihsanul-muslim"
+  },
+  {
+    "absen": 16038,
+    "name": "Jerry Ferdiansyah",
+    "discord": ["613231123849543681"],
+    "url": "https://royah.me/jerry-ferdiansyah"
+  },
+  {
+    "absen": 16039,
+    "name": "Karina Khairan",
+    "discord": [],
+    "url": "https://royah.me/karina-khairan"
+  },
+  {
+    "absen": 16040,
+    "name": "Kevin Rinata",
+    "discord": ["769035299732848661"],
+    "url": "https://royah.me/kevin-rinata"
+  },
+  {
+    "absen": 16041,
+    "name": "Khairini Ramadhani",
+    "discord": [],
+    "url": "https://royah.me/khairini-ramadhani"
+  },
+  {
+    "absen": 16042,
+    "name": "Laila Majenum",
+    "discord": [],
+    "url": "https://royah.me/laila-majenum"
+  },
+  {
+    "absen": 16043,
+    "name": "Larasaki Kamiko",
+    "discord": ["718847168328237119"],
+    "url": "https://royah.me/larasaki-kamiko"
+  },
+  {
+    "absen": 16044,
+    "name": "M. Alvin Syukriant",
+    "discord": ["693689731921346651"],
+    "url": "https://royah.me/m-alvin-syukriant"
+  },
+  {
+    "absen": 16045,
+    "name": "M. Arif Nugraha",
+    "discord": ["701410294278389770"],
+    "url": "https://royah.me/m-arif-nugraha"
+  },
+  {
+    "absen": 16046,
+    "name": "M. Taufiqurahman",
+    "discord": ["704160753023844362"],
+    "url": "https://royah.me/m-taufiqurahman"
+  },
+  {
+    "absen": 16047,
+    "name": "Merliya Fitri",
+    "discord": [],
+    "url": "https://royah.me/merliya-fitri"
+  },
+  {
+    "absen": 16048,
+    "name": "Mhd. Mishbah As-Shiddiq",
+    "discord": ["689273945425313793"],
+    "url": "https://royah.me/mhd-mishbah-as-shiddiq"
+  },
+  {
+    "absen": 16050,
+    "name": "Muhammad Alif Lazuardi",
+    "discord": ["765052488646000651"],
+    "url": "https://royah.me/muhammad-alif-lazuardi"
+  },
+  {
+    "absen": 16051,
+    "name": "Muhammad Arstha Thoha",
+    "discord": ["803645047945035807"],
+    "url": "https://royah.me/muhammad-arstha-thoha"
+  },
+  {
+    "absen": 16049,
+    "name": "Muhammad Farhan",
+    "discord": ["689859657614753839"],
+    "url": "https://royah.me/muhammad-farhan"
+  },
+  {
+    "absen": 16052,
+    "name": "Muhammad Farhan Khadaffi",
+    "discord": [],
+    "url": "https://royah.me/muhammad-farhan-khadaffi"
+  },
+  {
+    "absen": 16054,
+    "name": "Muhammad Hadana Alkautsar",
+    "discord": ["733977123467034664"],
+    "url": "https://royah.me/muhammad-hadana-alkautsar"
+  },
+  {
+    "absen": 16053,
+    "name": "Muhammad Hafidz",
+    "discord": ["564316263455916033"],
+    "url": "https://royah.me/muhammad-hafidz"
+  },
+  {
+    "absen": 16055,
+    "name": "Muhammad Hanief",
+    "discord": ["743808926667112470"],
+    "url": "https://royah.me/muhammad-hanief"
+  },
+  {
+    "absen": 16056,
+    "name": "Muhammad Hasbi Asy Syukri",
+    "discord": ["754717441703018626", "727810070410428457"],
+    "url": "https://royah.me/muhammad-hasbi-asy-syukri"
+  },
+  {
+    "absen": 16057,
+    "name": "Muhammad Irfan Alhasan",
+    "discord": ["593662418727600169"],
+    "url": "https://royah.me/muhammad-irfan-alhasan"
+  },
+  {
+    "absen": 16058,
+    "name": "Muhammad Luthfi",
+    "discord": ["695918802067652611"],
+    "url": "https://royah.me/muhammad-luthfi"
+  },
+  {
+    "absen": 16059,
+    "name": "Muhammad Rawanda Fardiansyah",
+    "discord": ["707512925589340220"],
+    "url": "https://royah.me/muhammad-rawanda-fardiansyah"
+  },
+  {
+    "absen": 16060,
+    "name": "Muhammad Rival",
+    "discord": ["691616333938556958"],
+    "url": "https://royah.me/muhammad-rival"
+  },
+  {
+    "absen": 16061,
+    "name": "Muhammad Urwatil Wutsqo",
+    "discord": ["487959385939771392"],
+    "url": "https://royah.me/muhammad-urwatil-wutsqo"
+  },
+  {
+    "absen": 16062,
+    "name": "Muslihuddin Sa'di Subhan",
+    "discord": ["707521643546673225"],
+    "url": "https://royah.me/muslihuddin-sadi-subhan"
+  },
+  {
+    "absen": 16065,
+    "name": "Nabila Hannania",
+    "discord": ["742616281387106354"],
+    "url": "https://royah.me/nabila-hannania"
+  },
+  {
+    "absen": 16066,
+    "name": "Nadia Suryani",
+    "discord": [],
+    "url": "https://royah.me/nadia-suryani"
+  },
+  {
+    "absen": 16067,
+    "name": "Nadifa Nur Aulia",
+    "discord": ["759202938169851934"],
+    "url": "https://royah.me/nadifa-nur-aulia"
+  },
+  {
+    "absen": 16068,
+    "name": "Nafiqul Fajri",
+    "discord": ["654007465196781608"],
+    "url": "https://royah.me/nafiqul-fajri"
+  },
+  {
+    "absen": 16069,
+    "name": "Ni'mah Syamila",
+    "discord": [],
+    "url": "https://royah.me/nimah-syamila"
+  },
+  {
+    "absen": 16070,
+    "name": "Nurul Rahmah",
+    "discord": ["732860476450537492"],
+    "url": "https://royah.me/nurul-rahmah"
+  },
+  {
+    "absen": 16071,
+    "name": "Qory Zafira",
+    "discord": [],
+    "url": "https://royah.me/qory-zafira"
+  },
+  {
+    "absen": 16072,
+    "name": "Rafif Al Ghani",
+    "discord": ["732349101311787028"],
+    "url": "https://royah.me/rafif-al-ghani"
+  },
+  {
+    "absen": 16073,
+    "name": "Rahmadini Aulia",
+    "discord": [],
+    "url": "https://royah.me/rahmadini-aulia"
+  },
+  {
+    "absen": 16074,
+    "name": "Rahmat Mukhalin",
+    "discord": ["580498083058548787"],
+    "url": "https://royah.me/rahmat-mukhalin"
+  },
+  {
+    "absen": 16075,
+    "name": "Rahmatillah Noveza Rahmi",
+    "discord": ["732863662267564122"],
+    "url": "https://royah.me/rahmatillah-noveza-rahmi"
+  },
+  {
+    "absen": 16076,
+    "name": "Rahul Prima Putra",
+    "discord": ["689102760892825693"],
+    "url": "https://royah.me/rahul-prima-putra"
+  },
+  {
+    "absen": 16077,
+    "name": "Ravenna Salva Zahira",
+    "discord": ["701064685356712009"],
+    "url": "https://royah.me/ravenna-salva-zahira"
+  },
+  {
+    "absen": 16078,
+    "name": "Rayyan Azzahra Hidayat",
+    "discord": [],
+    "url": "https://royah.me/rayyan-azzahra-hidayat"
+  },
+  {
+    "absen": 16079,
+    "name": "Regina Maharani",
+    "discord": [],
+    "url": "https://royah.me/regina-maharani"
+  },
+  {
+    "absen": 16098,
+    "name": "Reza Ayu Astika",
+    "discord": [],
+    "url": "https://royah.me/reza-ayu-astika"
+  },
+  {
+    "absen": 16081,
+    "name": "Rezza Fiqrathul Putra",
+    "discord": [],
+    "url": "https://royah.me/rezza-fiqrathul-putra"
+  },
+  {
+    "absen": 16082,
+    "name": "Ridha Rahmah",
+    "discord": ["712345925246255265"],
+    "url": "https://royah.me/ridha-rahmah"
+  },
+  {
+    "absen": 16083,
+    "name": "Rihhadatul 'Aisy",
+    "discord": [],
+    "url": "https://royah.me/rihhadatul-aisy"
+  },
+  {
+    "absen": 16084,
+    "name": "Rizka Tri Afifah",
+    "discord": [],
+    "url": "https://royah.me/rizka-tri-afifah"
+  },
+  {
+    "absen": 16085,
+    "name": "Ruhiyah Faradishi Widiaputri",
+    "discord": ["690237628406431827"],
+    "url": "https://royah.me/ruhiyah-faradishi-widiaputri"
+  },
+  {
+    "absen": 16086,
+    "name": "Rurianda Nurhafizhah",
+    "discord": [],
+    "url": "https://royah.me/rurianda-nurhafizhah"
+  },
+  {
+    "absen": 16087,
+    "name": "Salim Perdana",
+    "discord": ["686125570085617690"],
+    "url": "https://royah.me/salim-perdana"
+  },
+  {
+    "absen": 16088,
+    "name": "Shidiq Tami Putra",
+    "discord": [],
+    "url": "https://royah.me/shidiq-tami-putra"
+  },
+  {
+    "absen": 16089,
+    "name": "Siti Iedrania Azzariyat Akbar",
+    "discord": ["326980249315442698"],
+    "url": "https://royah.me/siti-iedrania-azzariyat-akbar"
+  },
+  {
+    "absen": 16090,
+    "name": "Suci Nurul Azizi",
+    "discord": [],
+    "url": "https://royah.me/suci-nurul-azizi"
+  },
+  {
+    "absen": 16091,
+    "name": "Syarah Oktaviana",
+    "discord": [],
+    "url": "https://royah.me/syarah-oktaviana"
+  },
+  {
+    "absen": 16092,
+    "name": "Teungku Muhammad Siddiq",
+    "discord": ["691301166260420638"],
+    "url": "https://royah.me/teungku-muhammad-siddiq"
+  },
+  {
+    "absen": 16093,
+    "name": "Ulva Harlina",
+    "discord": [],
+    "url": "https://royah.me/ulva-harlina"
+  },
+  {
+    "absen": 16094,
+    "name": "Vhelsy Indra Chahyani",
+    "discord": [],
+    "url": "https://royah.me/vhelsy-indra-chahyani"
+  },
+  {
+    "absen": 16095,
+    "name": "Wela Sapira",
+    "discord": [],
+    "url": "https://royah.me/wela-sapira"
+  },
+  {
+    "absen": 16096,
+    "name": "Windi Dwi Nanda",
+    "discord": [],
+    "url": "https://royah.me/windi-dwi-nanda"
+  },
+  {
+    "absen": 16097,
+    "name": "Yusuf Arrazaq Malqi",
+    "discord": ["801826026157899787"],
+    "url": "https://royah.me/yusuf-arrazaq-malqi"
+  }
 ]
