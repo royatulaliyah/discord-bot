@@ -16,7 +16,7 @@ module.exports = {
         embed.addField("MOTD", data.motd.clean);
         embed.addField("Jumlah pemain online", `${data.players.online} orang`);
 
-        if (data.players.list.length > 0) {
+        if (data.players.list) {
           embed.addField("Daftar Pemain", data.players.list.join(", "));
         }
       } else {
