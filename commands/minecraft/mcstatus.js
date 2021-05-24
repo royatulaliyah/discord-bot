@@ -26,22 +26,29 @@ module.exports = {
       return message.channel.send(embed);
     };
 
-    https
-      .get("https://api.mcsrvstat.us/2/mc.royah.me", (resp) => {
-        let data = "";
+    try {
+      https
+        .get("https://api.mcsrvstat.us/2/mc.royah.me", (resp) => {
+          let data = "";
 
-        // A chunk of data has been received.
-        resp.on("data", (chunk) => {
-          data += chunk;
-        });
+          // A chunk of data has been received.
+          resp.on("data", (chunk) => {
+            data += chunk;
+          });
 
-        // The whole response has been received. Print out the result.
-        resp.on("end", () => {
-          sendMessage(JSON.parse(data));
+          // The whole response has been received. Print out the result.
+          resp.on("end", () => {
+            sendMessage(JSON.parse(data));
+          });
+        })
+        .on("error", (err) => {
+          console.log("Error: " + err.message);
         });
-      })
-      .on("error", (err) => {
-        console.log("Error: " + err.message);
-      });
+    } catch (error) {
+      console.error(error);
+      message.channel.send(
+        "Terjadi permasalahan, silakan coba lagi dalam beberapa menit"
+      );
+    }
   },
 };
