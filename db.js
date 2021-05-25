@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes } = require("sequelize");
-const sequelize = new Sequelize(process.env.DATABASE_URL);
+const sequelize = new Sequelize(process.env.DATABASE_URL + "?ssl=true");
 const Fess = sequelize.define("Fess", {
   authorId: {
     type: DataTypes.STRING,
