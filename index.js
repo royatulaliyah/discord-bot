@@ -6,6 +6,7 @@ const Discord = require("discord.js");
 const { prefix } = require("./config.json");
 
 const data = require("./data.json");
+const { Fess } = require("./db");
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -25,6 +26,7 @@ for (const folder of commandFolders) {
 }
 
 client.once("ready", () => {
+  Fess.sync();
   console.log("Ready!");
 });
 
