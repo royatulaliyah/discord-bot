@@ -7,6 +7,9 @@ module.exports = {
   dmOnly: true,
   async execute(message, args) {
     const content = args.join(" ");
+    
+    if (!content)
+      return message.channel.send("tidak bisa mengirim fess kosong");
 
     const fess = await Fess.create({
       authorId: message.author.id,
@@ -24,7 +27,6 @@ module.exports = {
       .setAuthor(`[FESS]`)
       .setDescription(fess.content)
       .setTimestamp(fess.createdAt)
-      .setColor("#0099ff");
 
     webhookClient.send(embed);
 
