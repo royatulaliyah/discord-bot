@@ -6,6 +6,7 @@ const Discord = require("discord.js");
 const { prefix } = require("./config.json");
 
 const data = require("./data.json");
+const { Fess } = require("./db");
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -25,6 +26,7 @@ for (const folder of commandFolders) {
 }
 
 client.once("ready", () => {
+  Fess.sync();
   console.log("Ready!");
 });
 
@@ -45,6 +47,11 @@ client.on("message", (message) => {
   //check if a command cannot be executed inside dm
   if (command.guildOnly && message.channel.type === "dm") {
     return message.reply("command tersebut tidak bisa dijalankan di dalam dm");
+  }
+
+  //check if a command can only be executed inside dm
+  if (command.dmOnly && message.channel.type !== "dm") {
+    return message.reply("command tersebut harus dijalankan di dalam dm");
   }
 
   //check if a command requires args and the user didn't sent any arguments
