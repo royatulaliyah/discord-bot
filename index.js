@@ -47,6 +47,11 @@ client.on("message", (message) => {
     return message.reply("command tersebut tidak bisa dijalankan di dalam dm");
   }
 
+  //check if a command can only be executed inside dm
+  if (command.dmOnly && message.channel.type !== "dm") {
+    return message.reply("command tersebut harus dijalankan di dalam dm");
+  }
+
   //check if a command requires args and the user didn't sent any arguments
   if (command.args && !args.length) {
     return message.channel.send(
