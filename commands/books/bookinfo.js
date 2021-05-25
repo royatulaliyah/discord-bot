@@ -6,9 +6,12 @@ const myCredentials = {
 const gr = goodreads(myCredentials);
 const Discord = require("discord.js");
 
+const TurndownService = require("turndown");
+const turndownService = new TurndownService();
+
 module.exports = {
   name: "bookinfo",
-  description: "get a book's information from goodreads api",
+  description: "get a book's information using goodreads api",
   aliases: ["book"],
   cooldown: 10,
   execute(message, args) {
@@ -34,14 +37,8 @@ module.exports = {
       };
 
       const getDescription = () => {
-        bookDescription = bookData.description
-          .replace(/<b>/g, " **")
-          .replace(/<\/b>/g, "** ")
-          .replace(/<i>/g, " *")
-          .replace(/<\/i>/g, "* ")
-          .replace(/<br \/>/g, "\n")
-          .replace(/<p>/g, "\n")
-          .replace(/<\/p>/g, "\n");
+        bookDescription = turndownService.turndown(bookData.description);
+
         if (bookDescription.length > 1000) {
           bookDescription = bookDescription.slice(0, 1000);
           bookDescription += "...";
