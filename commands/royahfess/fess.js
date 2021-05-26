@@ -24,7 +24,6 @@ module.exports = {
     );
 
     const embed = new Discord.MessageEmbed()
-      .setAuthor(`[FESS]`)
       .setDescription(fess.content)
       .setTimestamp(fess.createdAt)
 
