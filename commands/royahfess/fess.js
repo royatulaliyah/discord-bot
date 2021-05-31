@@ -1,5 +1,6 @@
 const { Fess } = require("../../db");
 const Discord = require("discord.js");
+const { isMemberById } = require("../../src/utils/findperson");
 
 module.exports = {
   name: "fess",
@@ -7,7 +8,13 @@ module.exports = {
   dmOnly: true,
   async execute(message, args) {
     const content = args.join(" ");
-    
+
+    if (!isMemberById(message.author.id)) {
+      return message.channel.send(
+        "akun kamu belum terverifikasi. jika kamu anak royah, silakan hubungi admin"
+      );
+    }
+
     if (!content)
       return message.channel.send("tidak bisa mengirim fess kosong");
 
@@ -25,7 +32,7 @@ module.exports = {
 
     const embed = new Discord.MessageEmbed()
       .setDescription(fess.content)
-      .setTimestamp(fess.createdAt)
+      .setTimestamp(fess.createdAt);
 
     webhookClient.send(embed);
 
