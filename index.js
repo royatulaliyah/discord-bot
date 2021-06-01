@@ -33,7 +33,17 @@ client.once("ready", () => {
 client.on("message", (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
 
-  const args = message.content.slice(prefix.length).trim().split(/ +/);
+  // split messages to arguments
+  var regexp = /[^\s"]+|"([^"]*)"/gi;
+  var raw = message.content.slice(prefix.length).trim();
+  var args = [];
+  do {
+    var match = regexp.exec(raw);
+    if (match != null) {
+      args.push(match[1] ? match[1] : match[0]);
+    }
+  } while (match != null);
+  
   const commandName = args.shift().toLowerCase();
 
   const command =
