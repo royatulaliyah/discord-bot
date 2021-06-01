@@ -1,5 +1,18 @@
 const { Sequelize, DataTypes } = require("sequelize");
-//const sequelize = new Sequelize(process.env.DATABASE_URL);
+
+let dialectOptions = {};
+
+switch (process.env.NODE_ENV) {
+  case "PRODUCTION":
+    dialectOptions = {
+      ssl: {
+        require: true,
+        rejectUnauthorized: false,
+      },
+    };
+    break;
+}
+
 const sequelize = new Sequelize(
   process.env.DB_NAME,
   process.env.DB_USERNAME,
@@ -7,15 +20,11 @@ const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST,
     dialect: "postgres",
-    dialectOptions: {
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
+    dialectOptions: dialectOptions,
     logging: false,
   }
 );
+
 const Fess = sequelize.define("Fess", {
   authorId: {
     type: DataTypes.STRING,
