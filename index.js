@@ -9,6 +9,7 @@ const data = require("./data.json");
 const { Fess } = require("./db");
 
 const client = new Discord.Client();
+require("discord-buttons")(client);
 client.commands = new Discord.Collection();
 
 const cooldowns = new Discord.Collection();
@@ -28,68 +29,6 @@ for (const folder of commandFolders) {
 client.once("ready", () => {
   Fess.sync();
   console.log("Ready!");
-
-  const cron = require("node-cron");
-  const https = require("https");
-  const channel = client.channels.cache.get("860202798813413407");
-
-  cron.schedule("*/1 * * * *", function () {
-    channel.bulkDelete(99);
-    channel.send("fetching API every minute...");
-    channel.send("getting schedules...").then((sent) => {
-      let message = "";
-
-      try {
-        https.get("https://api.indonesiabangkit.com/api/v1/waktu", (res) => {
-          res.on("data", (chunk) => {
-            let data = JSON.parse(chunk);
-            let start = new Date(data.data.start);
-            let end = new Date(data.data.end);
-
-            message += `${start.getDate()} ${start.toLocaleString("default", {
-              month: "long",
-            })} - ${end.getDate()} ${end.toLocaleString("default", {
-              month: "long",
-            })}`;
-
-            const endpoint =
-              "https://api.indonesiabangkit.com/api/v1/sesi?tanggal=2021-";
-
-            let days = [];
-            for (var d = start; d <= end; d.setDate(d.getDate() + 1)) {
-              days.push(new Date(d));
-            }
-
-            for (let i = 0; i < days.length; i++) {
-              channel.send("getting quotas...").then((sent2) => {
-                const url = `${endpoint}${days[i].getMonth()}-${days[
-                  i
-                ].getDate()}`;
-                console.log(url);
-                https.get(url, (resp) => {
-                  resp.on("data", (chunk2) => {
-                    const parsed = JSON.parse(chunk2);
-                    console.log(parsed);
-
-                    if (parsed.total > 0) {
-                      channel.send("found! <@487959385939771392>");
-                    } else {
-                      sent2.edit(`${days[i].getDate()}: quota not available`);
-                    }
-                  });
-                });
-              });
-            }
-
-            sent.edit(message);
-          });
-        });
-      } catch (error) {
-        message = "error";
-        sent.edit(message);
-      }
-    });
-  });
 });
 
 client.on("message", (message) => {

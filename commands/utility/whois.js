@@ -1,5 +1,7 @@
 const people = require("../../data.json");
 const Discord = require("discord.js");
+const disButton = require("discord-buttons");
+
 module.exports = {
   name: "whois",
   description: "whois",
@@ -10,15 +12,12 @@ module.exports = {
         person.discord.forEach((discordId) => {
           if (id == discordId) {
             notFound = false;
-            const embed = new Discord.MessageEmbed()
-              .attachFiles(["src/images/logo.png"])
-              .setColor("RANDOM")
-              .setTitle(person.name)
+            let button = new disButton.MessageButton()
+              .setStyle("url")
               .setURL(person.url)
-              .setTimestamp()
-              .setFooter("RoyahBot", "attachment://logo.png");
+              .setLabel(person.name);
 
-            return message.channel.send(embed);
+            message.channel.send("‎", button);
           }
         });
       });
@@ -26,8 +25,21 @@ module.exports = {
     };
 
     if (args.length > 0) {
-      mentionedUserId = message.mentions.members.first().id;
-      findPerson(mentionedUserId);
+      let mentionedUser = message.mentions.members.first();
+
+      if (mentionedUser) {
+        mentionedUserId = message.mentions.members.first().id;
+        findPerson(mentionedUserId);
+      } else {
+        message.channel.guild.members
+          .fetch({ query: args[0], limit: 1 })
+          .then((user) => {
+            findPerson(user.first().id);
+          })
+          .catch((error) => {
+            return message.channel.send(`User _${args[0]}_ tidak ditemukan`);
+          });
+      }
     } else {
       findPerson(message.author.id);
     }
