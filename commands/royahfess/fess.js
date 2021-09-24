@@ -15,8 +15,9 @@ module.exports = {
       );
     }
 
-    if (!content)
+    if (!content) {
       return message.channel.send("tidak bisa mengirim fess kosong");
+    }
 
     const fess = await Fess.create({
       authorId: message.author.id,
@@ -30,11 +31,7 @@ module.exports = {
       process.env.WEBHOOK_FESS_TOKEN
     );
 
-    const embed = new Discord.MessageEmbed()
-      .setDescription(fess.content)
-      .setTimestamp(fess.createdAt);
-
-    webhookClient.send(embed);
+    webhookClient.send(fess.content);
 
     return message.channel.send(
       "fess diterima! silakan datang ke <#691496506934689865> untuk melihat pesan kamu"
