@@ -6,7 +6,6 @@ const Discord = require("discord.js");
 const { prefix } = require("./config.json");
 
 const data = require("./data.json");
-const { Fess } = require("./db");
 
 const client = new Discord.Client();
 require("discord-buttons")(client);
